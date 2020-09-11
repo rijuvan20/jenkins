@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Buzz Buzz') {
+    stage('Buzz Build') {
       steps {
-        echo 'Placeholder'
+        bat(script: 'dir', returnStatus: true)
       }
     }
 
