@@ -14,5 +14,23 @@ pipeline {
       }
     }
 
+    stage('Fluffy Build') {
+      steps {
+        echo 'Placeholder'
+      }
+    }
+
+    stage('Fluppy Test') {
+      steps {
+        echo 'Placeholder'
+      }
+    }
+
+    stage('Fluppy Deploy') {
+      steps {
+        echo 'Placeholder'
+      }
+    }
+
   }
 }
